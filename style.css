@@ -774,7 +774,6 @@ button.nfl-o-button.nfl-o-button--alert {
 .nfl-c-mixed-content-carousel__progress-bar-percent {
     background-color: var(--swiper-pagination-color, #1B48E0)
 }
-
 .nfl-c-table-comparison th:not([data-has-bkg-color-button-theme]) .nfl-c-table-comparison__cell-checkmark[data-is-checked],
 .nfl-c-table-comparison td:not([data-has-bkg-color-button-theme]) .nfl-c-table-comparison__cell-checkmark[data-is-checked] {
     filter: invert(100%)
