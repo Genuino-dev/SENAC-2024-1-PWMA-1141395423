@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+header{
+    background-color: #557090;
+    font-family: Oswald;
+}
+a {
+    font-family: Oswald;
+    text-decoration: none;
+    color: #1f1517;
+    text-transform: uppercase;
+    /*Retirar decoração <a>*/
+}
+ul {
+    list-style: none;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    text-align: center justify;
+}
+.logo {
+    font-size: 4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+    width: 40%;
+}
+
+body {
+  background-color: #CDCDE3;
+  color: #ffffff;
+  /*cor principaal do texto */
+} 
+
+nav {
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:3rem;
+    margin-bottom: 60pxpx;
+}
+
+.menuSuspenso{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 3rem;
+    gap: 5rem;
+    color: #1f1517;
+    text-align: center;
+    background-color: #557090;
+    border-radius: 1rem;
+    border-style: inset outset;
+    justify-container: center;
+    top: 0;
+    position: fixed;
+    top: 0;
+    left: 40%;
+}
+
+.container {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+    
+  }
+  
+  .coluna {
+    flex: 1;
+    margin-right: 10px;
+    background-color: #eee;
+    padding: 20px;
+  }
+
+
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "left middle right";
+    height: 80%;
+    width: 80%;
+  }
+  
+  .side {
+    background-color: #ccc;
+  }
+  
+  .left {
+    grid-area: left;
+    background-color: #523f70;
+  }
+  
+  .middle {
+    grid-area: middle;
+    background-color: #ede6f9;
+  }
+
+  
+  .right {
+    grid-area: right;
+    background-color: #523f70;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+    margin-top:40px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: solid 1px blue;
+    border-radius: 20px;
+    background-color: #B9B9CF;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  footer{
+    background-color: #557090;
+    padding: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    color: #fff;
+    font-family: roboto;
+}
+
+.disclaimer {
+  text-align: center;
+  padding-top: 2rem;
+}
